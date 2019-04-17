@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 980px;
+    height: 60px;
+    background: #008080;
+    color: #fff;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#header h1{
+    font-size: 20px;
+    text-align: center;
+    top: 0;
+    left: 20px;
+    position: absolute;
+}
+
+#content_wrap{
+    width: 980px;
+    min-height: 500px;
+    background: #f5fffa;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.counter-text{
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+#content_wrap form textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 20px;
+}
+#content_wrap p{
+    font-size: 30px;
+    color: #008080;
+}
+
+#content_wrap p span{
+    font-size: 50px;
+    color: #008080;
+}
